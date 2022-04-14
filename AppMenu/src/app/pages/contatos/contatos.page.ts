@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-contatos',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatosPage implements OnInit {
 
-  constructor() { }
+  constructor( private navController: NavController) { }
 
+  showPageContatos2(){
+    this.navController.navigateForward('contatos2');
+  }
   ngOnInit() {
   }
 

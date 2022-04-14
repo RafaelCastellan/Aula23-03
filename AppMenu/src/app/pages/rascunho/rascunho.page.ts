@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-rascunho',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RascunhoPage implements OnInit {
 
-  constructor() { }
+  constructor(private navController: NavController) { }
 
+  showPageRascunho2(){
+    this.navController.navigateForward('rascunho2');
+    }
   ngOnInit() {
   }
 

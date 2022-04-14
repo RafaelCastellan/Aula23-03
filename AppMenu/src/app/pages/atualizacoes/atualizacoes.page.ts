@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-atualizacoes',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AtualizacoesPage implements OnInit {
 
-  constructor() { }
+  constructor(private navController : NavController) { }
+
+  showPageAtualizacoes2(){
+    this.navController.navigateForward('atualizacoes2');
+  }
 
   ngOnInit() {
   }
