@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Navegação', url: '/navegacao', icon: 'code' },
+    { title: 'Alerta', url: '/alert', icon: 'alert-circle' },
+    { title: 'Página de Alerta', url: '/pagina-alertas', icon: 'alert-circle' },
+    { title: 'Action Sheet', url: '/actionsheet', icon: 'alert' },
+    { title: 'Página Action Sheet', url: '/pagina-action-sheet', icon: 'alert' },
+    { title: 'Badge', url: '/badge', icon: 'list' },
     { title: 'Botões', url: '/botao', icon: 'construct' },
     { title: 'Página de Botões 1', url: '/botao1', icon: 'construct' },
     { title: 'Página de Botões 2', url: '/botao2', icon: 'construct' },
