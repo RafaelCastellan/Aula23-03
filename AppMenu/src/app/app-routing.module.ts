@@ -93,6 +93,10 @@ const routes: Routes = [
   {
     path: 'pagina-action-sheet',
     loadChildren: () => import('./pages/pagina-action-sheet/pagina-action-sheet.module').then( m => m.PaginaActionSheetPageModule)
+  },
+  {
+    path: 'pagina-badge',
+    loadChildren: () => import('./pages/pagina-badge/pagina-badge.module').then( m => m.PaginaBadgePageModule)
   }
 
 
