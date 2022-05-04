@@ -10,7 +10,7 @@
 <ion-content>
   <h3>Cursos</h3>
   <ion-list>
-    <ion-item *ngFor="let mes of cursos">
+    <ion-item *ngFor="let curso of cursos">
       <ion-label>{{curso.nomeCurso}}</ion-label>
       <ion-checkbox checked="{{curso.nomeCurso}}" [(ngModel)]="curso.marcado" color="primary"></ion-checkbox>
     </ion-item>

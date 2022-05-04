@@ -27,7 +27,7 @@ export class CursosPage implements OnInit {
   }
 
   exibirCursos(){
-    console.log(this.exibirCursos)
+    console.log(this.cursos);
   }
 
 }
