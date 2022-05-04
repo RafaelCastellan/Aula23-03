@@ -97,6 +97,26 @@ const routes: Routes = [
   {
     path: 'pagina-badge',
     loadChildren: () => import('./pages/pagina-badge/pagina-badge.module').then( m => m.PaginaBadgePageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'check-box',
+    loadChildren: () => import('./pages/check-box/check-box.module').then( m => m.CheckBoxPageModule)
+  },
+  {
+    path: 'card-tarefa',
+    loadChildren: () => import('./pages/card-tarefa/card-tarefa.module').then( m => m.CardTarefaPageModule)
+  },
+  {
+    path: 'checkbox-tarefa',
+    loadChildren: () => import('./pages/checkbox-tarefa/checkbox-tarefa.module').then( m => m.CheckboxTarefaPageModule)
+  },
+  {
+    path: 'cursos',
+    loadChildren: () => import('./pages/cursos/cursos.module').then( m => m.CursosPageModule)
   }
 
 
