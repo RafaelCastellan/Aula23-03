@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Navegação', url: '/navegacao', icon: 'code' },
+    { title: 'Scroll Alfabeto', url: '/scrollalfabeto', icon: 'infinite' },
+    { title: 'Formulario', url: '/formulario', icon: 'reader' },
+    { title: 'Infinit Scroll', url: '/infinitscroll', icon: 'infinite' },
+    { title: 'DateTime', url: '/datetime', icon: 'timer' },
+    { title: 'Input', url: '/input', icon: 'document-text' },
     { title: 'Card', url: '/card', icon: 'newspaper' },
     { title: 'Card 2', url: '/card-tarefa', icon: 'newspaper' },
     { title: 'Checkbox', url: '/check-box', icon: 'checkbox' },
